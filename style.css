@@ -1,0 +1,354 @@
+
+/* Nascondere scroll */
+html {
+    overflow: auto; 
+    scrollbar-width: none; /* Per Firefox */
+    -ms-overflow-style: none; /* Per Internet Explorer e Edge */
+}
+html::-webkit-scrollbar, 
+body::-webkit-scrollbar {
+    display: none; /* Per Chrome, Safari e altri browser Webkit */
+}
+
+/* Body */
+body {
+    background-color: #b3b9c4;
+    width: 100%;
+    height: 100%;
+}
+
+/* Immagine Profilo (myPhoto) */
+.profile-image {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 5px solid #f7f9fa;
+    margin-top: -75px;
+}
+
+/* Container */
+.container{
+    margin-top: 90px;
+}
+
+/* Main Div */
+.profile-card {
+    background: #dadde3;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-top: 60px;
+    margin-bottom: 40px;    
+}
+
+/* Icone Socials */
+.icon {
+    width: 30px;
+}
+.icon-alt{
+    width: 18px;
+}
+
+/* Home Btn */
+#btn-home{
+    width: 130px;
+    height: 45px;
+    position: relative;
+    display: block;
+    border: none;
+    margin-top: -45px;
+}
+
+/* Darkmode */
+/* .darkmode-checkbox {
+    position: absolute;
+}
+label {
+    width: 100px;
+    height: 45px;
+    position: relative;
+    display: block;
+    background: #c4c8cc;
+    border-radius: 200px;
+    box-shadow: inset 0px 5px 10px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    transition: 0.3s;
+}
+label:after {
+    content: "";
+    width: 38%; 
+    height: 85%;
+    position: absolute;
+    top: 4px;   
+    left: 4px;
+    border-radius: 200px;
+    background: linear-gradient(180deg, #ffcc89, #d8860b);
+    box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+input {
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+input:checked + label:after {
+    left: 98%;
+    transform: translate(-100%);
+    background: linear-gradient(180deg, #777, #3a3a3a);
+} */
+
+/* About Section */
+#about-div{
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#about-text{
+    text-align: justify;
+    margin-left: 0%;
+    margin-right: 0%;
+}
+#about-p{
+    line-height: 1.7;
+}
+
+/* Special Divs (Spacer & Horizontal Line) */
+.spacer-div{
+    padding-left: 5%;
+}
+.spacer-div-btn{
+    padding-left: 100px;
+    width: 5px;
+}
+.horizontal-line {
+    height: 2px;     
+    background-color: #2d343b; 
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.horizontal-line.cv{
+    height: 2px;
+    background-color: #738090; 
+    margin-left: 0%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+/* Footer */
+.footer-copyright {
+    margin-top: 25px;        
+    text-align: center;      
+    font-size: 14px;         
+    margin-bottom: 20px;
+}
+.footer-copyright a {
+    color: #007BFF;          
+    text-decoration: none;    
+}
+.footer-copyright p{
+    line-height: 1;
+}
+
+/* CV page */
+p#cv-description{
+    line-height: 1.7;
+}
+div#about-cv{
+    text-align: justify;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+div#contacts{
+    background-color: #c4c8cc;
+    padding-top: 20px;
+    /* padding-bottom: 10px; */
+    text-align: left;
+    padding-left: 5%;
+    border-radius: 10px;
+}
+pre#contacts{
+    margin-left: 0;
+    padding-left: 0;
+    left: 0;
+}
+div.cv-component{
+    padding-left: 5%;
+    padding-top: 5px;
+    padding-right: 5%;
+    /* margin-bottom: 5px; */
+}
+h5.cv-component{
+    color: #0077B5;
+}
+.data-row-component h6{
+    color: #515d69;
+    width: 150px;
+}
+.description-row-component{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.description-title h5, h6{
+    color: #2d343b;
+}
+.description-title{
+    width: 100%;
+}
+.data-row-component{
+    height: 100%;
+}
+.description-about{
+    width: 100%;
+}
+.cv-component-row {
+    margin-bottom: 15px;
+}
+.row.cv-component#languages-skills{
+    width: 100%;
+}
+#languages-section{
+    /* background-color: #d8860b; */
+    width: 200px;
+}
+#skills-section{
+    /* background-color: aqua; */
+    margin-left: 70px;
+}
+.col-md.skills{
+    margin-left: 80px;
+}
+#download{
+    margin-bottom: 70px;
+}
+a#download{
+    text-decoration: none;
+}
+#download-h6{
+    color: #0A66C2;
+}
+a.link-icon{
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Cards */
+.card{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #738090;
+    border-radius: 25px;
+    justify-self: center;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+.project-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 300px;
+    height: 300px;
+}
+.project-image {
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
+a.card{
+    text-decoration: none;
+    color: inherit;
+}
+.cards-row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#cards-row-1{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.card-header{
+    align-items: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    border-radius: 25px 25px 0 0 !important;
+    background-color: #c4c8cc;
+}
+.card-body{
+    padding: 10px;
+    font-size: 18px;
+    overflow: hidden;
+    border: none;
+    background-color: #dadde3;
+}
+.card-footer{
+    font-size: 18px;
+    border-radius: 0 0 25px 25px !important;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    background-color: #c4c8cc;
+}
+.card-img-top{
+    width: 100%; 
+    height: 180px;
+    border-radius: 5px; 
+}
+
+/* Buttons */
+.buttons-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5%;
+}
+#buttons-row-1{
+    margin-top: 5%;
+    margin-bottom: 7%;
+}
+.round-button-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border:10px solid #5c6c7a;
+    overflow:hidden;
+    background-color: #738090;
+}
+.round-button-circle a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    line-height: 1em;
+    text-align: center;
+    color: #dadde3;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+/* 
+
+To Do List:
+
+- Rendere responsive x mobile
+    - Riabilitare QR Code
+
+- Sistemare bottoni home 
+    - CV
+    - Progetti
+    - 3D Art
+    - AGGIUNGERE CREDITI DELLE ICONE SE LE USI COME BACKGROUNDS
+    
+- Sistemare Commenti
+
+- Pulire codice 
+
+- Cambiare Foto "Profilo"
+
+*/
