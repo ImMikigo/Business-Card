@@ -3,7 +3,8 @@ function changeLinkText() {
     const cvBtnTxt = document.querySelector('#cv-btn-txt');
 
     if (window.innerWidth <= 768) {
-        cvBtnTxt.textContent = 'CV';
+        // cvBtnTxt.textContent = 'CV';
+        cvBtnTxt.textContent = 'Curriculum Vitae';
     } else {
         cvBtnTxt.textContent = 'Curriculum Vitae';
     }
