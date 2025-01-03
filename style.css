@@ -301,6 +301,14 @@ a.card{
         margin-left: 0%;
         margin-right: 0%;
     }
+    .round-button-circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 20%;
+        border:5px solid #5c6c7a;
+        overflow:hidden;
+        background-color: #738090;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
