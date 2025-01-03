@@ -269,9 +269,9 @@ a.card{
     margin-bottom: 7%;
 }
 .round-button-circle {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+    width: 140px;
+    height: 140px;
+    border-radius: 20%;
     border:10px solid #5c6c7a;
     overflow:hidden;
     background-color: #738090;
