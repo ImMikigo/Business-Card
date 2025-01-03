@@ -318,6 +318,10 @@ a.card{
         padding-left: 30px;
         width: 5px;
     }
+    #buttons-row-1{
+        margin-top: 15%;
+        margin-bottom: 12%;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
