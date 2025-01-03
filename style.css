@@ -297,7 +297,10 @@ a.card{
     body {
         font-size: 14px;
     }
-    /* Aggiungi altre modifiche per layout, immagini, ecc. */
+    #about-text{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
@@ -305,7 +308,10 @@ a.card{
     body {
         font-size: 12px;
     }
-    /* Regola ulteriori elementi, come larghezza di colonne, immagini, ecc. */
+    #about-text{
+        margin-left: 0%;
+        margin-right: 0%;
+    }
 }
 
 
