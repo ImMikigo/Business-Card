@@ -290,6 +290,24 @@ a.card{
     text-decoration: none;
 }
 
+/* Responsive */
+
+/* Media query per dispositivi con larghezza max di 768px (tablet e smartphone) */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    /* Aggiungi altre modifiche per layout, immagini, ecc. */
+}
+
+/* Media query per dispositivi con larghezza max di 480px (smartphone) */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+    /* Regola ulteriori elementi, come larghezza di colonne, immagini, ecc. */
+}
+
 
 
 /* 
