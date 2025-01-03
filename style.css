@@ -290,6 +290,11 @@ a.card{
     text-decoration: none;
 }
 
+/* Last Update */
+#last-update{
+    content: "Ultimo aggiornamento: 04 Gen 2024";
+}
+
 /* Responsive */
 
 /* Media query per dispositivi con larghezza max di 768px (tablet e smartphone) */
