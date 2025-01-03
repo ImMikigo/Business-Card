@@ -295,25 +295,29 @@ a.card{
 /* Media query per dispositivi con larghezza max di 768px (tablet e smartphone) */
 @media (max-width: 768px) {
     body {
-        font-size: 14px;
+        font-size: 12px;
     }
     #about-text{
         margin-left: 0%;
         margin-right: 0%;
     }
     .round-button-circle {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         border-radius: 20%;
         border:5px solid #5c6c7a;
         overflow:hidden;
         background-color: #738090;
     }
+    .spacer-div-btn{
+        padding-left: 30px;
+        width: 5px;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
 @media (max-width: 480px) {
-    body {
+    /* body {
         font-size: 12px;
     }
     #about-text{
@@ -328,6 +332,10 @@ a.card{
         overflow:hidden;
         background-color: #738090;
     }
+    .spacer-div-btn{
+        padding-left: 20px;
+        width: 5px;
+    } */
 }
 
 
