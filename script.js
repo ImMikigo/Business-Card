@@ -23,6 +23,11 @@ function enableMobileVariants() {
     const education        = document.getElementById('education'       );
     const education_mobile = document.getElementById('education-mobile'); 
 
+    // Languages & Skills Sections
+    const languages_skills = document.getElementById('languages-skills');
+    const languages_mobile = document.getElementById('languages-mobile'); 
+    const skills_mobile    = document.getElementById('skills-mobile'   );
+
     // Certifications Section
     const certifications        = document.getElementById('certifications'       );
     const certifications_mobile = document.getElementById('certifications-mobile');
@@ -36,23 +41,28 @@ function enableMobileVariants() {
         // none - block
         
         // Back to Home Button 
-        btn_home.style.display        = 'none';
+        btn_home.style.display        = 'none' ;
         btn_home_mobile.style.display = 'block'; 
 
         // Job Experiences Section
-        jobExperiences.style.display        = 'none';
+        jobExperiences.style.display        = 'none' ;
         jobExperiences_mobile.style.display = 'block'; 
 
         // Education Section
-        education.style.display        = 'none';
+        education.style.display        = 'none' ;
         education_mobile.style.display = 'block'; 
 
         // Certifications Section
-        certifications.style.display        = 'none';
+        certifications.style.display        = 'none' ;
         certifications_mobile.style.display = 'block'; 
 
+        // Languages & Skills Sections
+        languages_skills.style.display = 'none' ;
+        languages_mobile.style.display = 'block'; 
+        skills_mobile.style.display    = 'block'; 
+
         // Driving License Section
-        drivingLicense.style.display        = 'none';
+        drivingLicense.style.display        = 'none' ;
         drivingLicense_mobile.style.display = 'block'; 
 
     } else {
@@ -61,23 +71,28 @@ function enableMobileVariants() {
 
         // Back to Home Button 
         btn_home.style.display        = 'block';
-        btn_home_mobile.style.display = 'none'; 
+        btn_home_mobile.style.display = 'none' ; 
 
         // Job Experiences Section
         jobExperiences.style.display        = 'block';
-        jobExperiences_mobile.style.display = 'none'; 
+        jobExperiences_mobile.style.display = 'none' ; 
 
         // Education Section  
         education.style.display        = 'block';
-        education_mobile.style.display = 'none'; 
+        education_mobile.style.display = 'none' ; 
 
         // Certifications Section
         certifications.style.display        = 'block';
         certifications_mobile.style.display = 'none' ; 
 
+        // Languages & Skills Sections
+        languages_skills.style.display = 'block';
+        languages_mobile.style.display = 'none' ; 
+        skills_mobile.style.display    = 'none' ;
+
         // Driving License Section
         drivingLicense.style.display        = 'block';
-        drivingLicense_mobile.style.display = 'none'; 
+        drivingLicense_mobile.style.display = 'none' ; 
 
     }
 }
