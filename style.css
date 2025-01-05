@@ -336,6 +336,10 @@ a.card{
         margin-top: 15%;
         margin-bottom: 12%;
     }
+    .description-row-component{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */

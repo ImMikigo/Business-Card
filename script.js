@@ -26,6 +26,14 @@ function enableMobileVariants() {
     const jobExperiences_void            = document.getElementById('jobExperiences-void'       );
     const jobExperiences_void_mobile     = document.getElementById('jobExperiences-void-mobile'); 
 
+    // Education Section
+    // - ITS
+    const education_its          = document.getElementById('education-its'       );
+    const education_its_mobile   = document.getElementById('education-its-mobile'); 
+    // - ITTS
+    const education_itts         = document.getElementById('education-itts'       );
+    const education_itts_mobile  = document.getElementById('education-itts-mobile'); 
+
     // Certifications Section
     const certifications        = document.getElementById('certifications'       );
     const certifications_mobile = document.getElementById('certifications-mobile');
@@ -37,6 +45,10 @@ function enableMobileVariants() {
     if (window.innerWidth <= 768) {
 
         // none - block
+        
+        // Back to Home Button 
+        btn_home.style.display        = 'none';
+        btn_home_mobile.style.display = 'block'; 
 
         // Job Experiences Section
         // - Innova
@@ -49,9 +61,13 @@ function enableMobileVariants() {
         jobExperiences_void.style.display        = 'none'
         jobExperiences_void_mobile.style.display = 'block'
 
-        // Back to Home Button 
-        btn_home.style.display        = 'none';
-        btn_home_mobile.style.display = 'block'; 
+        // Education Section
+        // - ITS
+        education_its.style.display        = 'none'
+        education_its_mobile.style.display = 'block'
+        // - ITTS
+        education_itts.style.display        = 'none'
+        education_itts_mobile.style.display = 'block'
 
         // Certifications Section
         certifications.style.display        = 'none';
@@ -65,6 +81,10 @@ function enableMobileVariants() {
 
         // block - none
 
+        // Back to Home Button 
+        btn_home.style.display        = 'block';
+        btn_home_mobile.style.display = 'none'; 
+
         // Job Experiences Section
         // - Innova
         jobExperiences_innova.style.display        = 'block'
@@ -76,9 +96,13 @@ function enableMobileVariants() {
         jobExperiences_void.style.display        = 'block'
         jobExperiences_void_mobile.style.display = 'none'
 
-        // Back to Home Button 
-        btn_home.style.display        = 'block';
-        btn_home_mobile.style.display = 'none'; 
+        // Education Section
+        // - ITS
+        education_its.style.display        = 'block'
+        education_its_mobile.style.display = 'none'
+        // - ITTS
+        education_itts.style.display        = 'block'
+        education_itts_mobile.style.display = 'none'        
 
         // Certifications Section
         certifications.style.display        = 'block';
