@@ -344,7 +344,7 @@ a.card{
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
 @media (max-width: 480px) {
-    /* body {
+    body {
         font-size: 12px;
     }
     #about-text{
@@ -352,17 +352,25 @@ a.card{
         margin-right: 0%;
     }
     .round-button-circle {
-        width: 100px;
-        height: 100px;
+        width: 90px;
+        height: 90px;
         border-radius: 20%;
         border:5px solid #5c6c7a;
         overflow:hidden;
         background-color: #738090;
     }
     .spacer-div-btn{
-        padding-left: 20px;
+        padding-left: 30px;
         width: 5px;
-    } */
+    }
+    #buttons-row-1{
+        margin-top: 15%;
+        margin-bottom: 12%;
+    }
+    .description-row-component{
+        margin-left: 0;
+        margin-right: 0;
+    }
 }
 
 
