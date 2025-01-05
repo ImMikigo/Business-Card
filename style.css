@@ -61,6 +61,16 @@ body {
     border: none;
     margin-top: -45px;
 }
+#btn-home-mobile{
+    width: 130px;
+    height: 45px;
+    position: relative;
+    display: block;
+    border: none;
+    margin-top: -75px;
+    margin-left: -25px;
+    margin-bottom: 30px;
+}
 
 /* About Section */
 #about-div{
@@ -355,10 +365,10 @@ To Do List:
 
 - Rendere responsive x mobile
 
-- Rivedere grandedezza btn CV (e dimensioni?)
 - Provare a togliere larghezza automatica su <p>
 
 - Cambiare Foto "Profilo"
+
 */
 
 
