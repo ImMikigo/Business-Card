@@ -51,6 +51,9 @@ body {
 .icon-alt{
     width: 18px;
 }
+.icon-alt-mobile{
+    width: 12px;
+}
 
 /* Home Btn */
 #btn-home{

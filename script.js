@@ -15,6 +15,17 @@ function enableMobileVariants() {
     const btn_home        = document.getElementById('btn-home'       );
     const btn_home_mobile = document.getElementById('btn-home-mobile'); 
 
+    // Job Experiences Section
+    // - Innova
+    const jobExperiences_innova          = document.getElementById('jobExperiences-innova'       );
+    const jobExperiences_innova_mobile   = document.getElementById('jobExperiences-innova-mobile'); 
+    // - Barbacan
+    const jobExperiences_barbacan        = document.getElementById('jobExperiences-barbacan'       );
+    const jobExperiences_barbacan_mobile = document.getElementById('jobExperiences-barbacan-mobile'); 
+    // - Void
+    const jobExperiences_void            = document.getElementById('jobExperiences-void'       );
+    const jobExperiences_void_mobile     = document.getElementById('jobExperiences-void-mobile'); 
+
     // Certifications Section
     const certifications        = document.getElementById('certifications'       );
     const certifications_mobile = document.getElementById('certifications-mobile');
@@ -26,6 +37,17 @@ function enableMobileVariants() {
     if (window.innerWidth <= 768) {
 
         // none - block
+
+        // Job Experiences Section
+        // - Innova
+        jobExperiences_innova.style.display        = 'none'
+        jobExperiences_innova_mobile.style.display = 'block'
+        // - Barbacan
+        jobExperiences_barbacan.style.display        = 'none'
+        jobExperiences_barbacan_mobile.style.display = 'block'
+        // - Void
+        jobExperiences_void.style.display        = 'none'
+        jobExperiences_void_mobile.style.display = 'block'
 
         // Back to Home Button 
         btn_home.style.display        = 'none';
@@ -42,6 +64,17 @@ function enableMobileVariants() {
     } else {
 
         // block - none
+
+        // Job Experiences Section
+        // - Innova
+        jobExperiences_innova.style.display        = 'block'
+        jobExperiences_innova_mobile.style.display = 'none'
+        // - Barbacan
+        jobExperiences_barbacan.style.display        = 'block'
+        jobExperiences_barbacan_mobile.style.display = 'none'
+        // - Void
+        jobExperiences_void.style.display        = 'block'
+        jobExperiences_void_mobile.style.display = 'none'
 
         // Back to Home Button 
         btn_home.style.display        = 'block';
