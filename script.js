@@ -16,23 +16,12 @@ function enableMobileVariants() {
     const btn_home_mobile = document.getElementById('btn-home-mobile'); 
 
     // Job Experiences Section
-    // - Innova
-    const jobExperiences_innova          = document.getElementById('jobExperiences-innova'       );
-    const jobExperiences_innova_mobile   = document.getElementById('jobExperiences-innova-mobile'); 
-    // - Barbacan
-    const jobExperiences_barbacan        = document.getElementById('jobExperiences-barbacan'       );
-    const jobExperiences_barbacan_mobile = document.getElementById('jobExperiences-barbacan-mobile'); 
-    // - Void
-    const jobExperiences_void            = document.getElementById('jobExperiences-void'       );
-    const jobExperiences_void_mobile     = document.getElementById('jobExperiences-void-mobile'); 
+    const jobExperiences        = document.getElementById('jobExperiences'       );
+    const jobExperiences_mobile = document.getElementById('jobExperiences-mobile'); 
 
     // Education Section
-    // - ITS
-    const education_its          = document.getElementById('education-its'       );
-    const education_its_mobile   = document.getElementById('education-its-mobile'); 
-    // - ITTS
-    const education_itts         = document.getElementById('education-itts'       );
-    const education_itts_mobile  = document.getElementById('education-itts-mobile'); 
+    const education        = document.getElementById('education'       );
+    const education_mobile = document.getElementById('education-mobile'); 
 
     // Certifications Section
     const certifications        = document.getElementById('certifications'       );
@@ -51,23 +40,12 @@ function enableMobileVariants() {
         btn_home_mobile.style.display = 'block'; 
 
         // Job Experiences Section
-        // - Innova
-        jobExperiences_innova.style.display        = 'none'
-        jobExperiences_innova_mobile.style.display = 'block'
-        // - Barbacan
-        jobExperiences_barbacan.style.display        = 'none'
-        jobExperiences_barbacan_mobile.style.display = 'block'
-        // - Void
-        jobExperiences_void.style.display        = 'none'
-        jobExperiences_void_mobile.style.display = 'block'
+        jobExperiences.style.display        = 'none';
+        jobExperiences_mobile.style.display = 'block'; 
 
         // Education Section
-        // - ITS
-        education_its.style.display        = 'none'
-        education_its_mobile.style.display = 'block'
-        // - ITTS
-        education_itts.style.display        = 'none'
-        education_itts_mobile.style.display = 'block'
+        education.style.display        = 'none';
+        education_mobile.style.display = 'block'; 
 
         // Certifications Section
         certifications.style.display        = 'none';
@@ -86,23 +64,12 @@ function enableMobileVariants() {
         btn_home_mobile.style.display = 'none'; 
 
         // Job Experiences Section
-        // - Innova
-        jobExperiences_innova.style.display        = 'block'
-        jobExperiences_innova_mobile.style.display = 'none'
-        // - Barbacan
-        jobExperiences_barbacan.style.display        = 'block'
-        jobExperiences_barbacan_mobile.style.display = 'none'
-        // - Void
-        jobExperiences_void.style.display        = 'block'
-        jobExperiences_void_mobile.style.display = 'none'
+        jobExperiences.style.display        = 'block';
+        jobExperiences_mobile.style.display = 'none'; 
 
-        // Education Section
-        // - ITS
-        education_its.style.display        = 'block'
-        education_its_mobile.style.display = 'none'
-        // - ITTS
-        education_itts.style.display        = 'block'
-        education_itts_mobile.style.display = 'none'        
+        // Education Section  
+        education.style.display        = 'block';
+        education_mobile.style.display = 'none'; 
 
         // Certifications Section
         certifications.style.display        = 'block';
