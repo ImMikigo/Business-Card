@@ -341,14 +341,9 @@ a.card{
         margin-right: 0;
     }
     #about-text{
-        /* text-align: justify; */
+        text-align: left;
         margin-left: 0%;
         margin-right: 0%;
-    }
-    #about-div{
-        /* text-align: justify; */
-        margin-left: 15%;
-        margin-right: 15%;
     }
 }
 
