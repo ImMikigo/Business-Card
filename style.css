@@ -340,6 +340,16 @@ a.card{
         margin-left: 0;
         margin-right: 0;
     }
+    #about-text{
+        /* text-align: justify; */
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+    #about-div{
+        /* text-align: justify; */
+        margin-left: 15%;
+        margin-right: 15%;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
