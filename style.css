@@ -385,18 +385,64 @@ div#buttons{
     }
 }
 
+/* Tris Project Page */
+    .app-showcase {
+        margin-top: 50px;
+        padding: 20px;
+    }
 
+    .app-icon {
+        width: 100px;
+        height: auto;
+        border-radius: 20px;
+    }
 
+    .app-description {
+        font-size: 18px;
+        color: #555;
+    }
+
+    .carousel {
+        max-width: 400px;
+        margin: 20px auto;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .carousel img {
+        border-radius: 10px;
+    }
+
+    .project-image {
+        position: relative;
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        overflow: hidden;
+        border: 5px solid #f7f9fa;
+        margin-top: -75px;
+        margin-bottom: 7px;
+    }
+
+    .screenshot {
+        width: 70%;
+        height: auto;
+    }
+
+    #horizontal-line-tris {
+        margin-top: 50px;
+    }
+
+/* --------------------------------------------------------------------------------------------- */
 /* 
 To Do List:
 
 - Cambiare Foto "Profilo"
 
 */
-
-
-
+/* --------------------------------------------------------------------------------------------- */
 /* 
+
 darker -> lighter (black)
 #1e2226 // #22262b // #2d343b // #464f59 // #515d69 // #5c6c7a // #738090
 
