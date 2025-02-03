@@ -305,8 +305,7 @@ div#buttons{
     display: block;
     border: none;
     display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colonne uguali */
-    gap: 0px; /* Spazio tra i bottoni */
+    grid-template-columns: repeat(2, 1fr); 
     margin-top: -45px;
     margin-left: 20px;
 }
@@ -444,9 +443,27 @@ div#buttons{
         margin-top: -120px;
     }
 
-    .prj-description {
+    .prj-info {
         padding-left: 50px;
         padding-right: 20px;
+    }
+
+    .prj-description-row {
+        
+    }
+    
+    .line-left {
+        flex-grow: 1; /* Occupa tutto lo spazio disponibile */
+        height: 2px; /* Spessore della linea */
+        background-color: black; /* Colore della linea */
+        max-width: 10%;
+    }
+    
+    .line-right {
+        flex-grow: 1; /* Occupa tutto lo spazio disponibile */
+        height: 2px; /* Spessore della linea */
+        background-color: black; /* Colore della linea */
+        max-width: 60%;
     }
 
 /* --------------------------------------------------------------------------------------------- */
