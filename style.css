@@ -452,20 +452,42 @@ div#buttons{
         
     }
     
-    .line-left {
-        flex-grow: 1; /* Occupa tutto lo spazio disponibile */
-        height: 2px; /* Spessore della linea */
-        background-color: black; /* Colore della linea */
+    .prj-line-left {
+        flex-grow: 1; 
+        height: 2px; 
+        background-color: black;
         max-width: 10%;
     }
     
-    .line-right {
-        flex-grow: 1; /* Occupa tutto lo spazio disponibile */
-        height: 2px; /* Spessore della linea */
-        background-color: black; /* Colore della linea */
-        max-width: 60%;
+    .prj-line-right {
+        flex-grow: 1; 
+        height: 2px; 
+        background-color: black;
     }
 
+    .row.prj {
+        text-align: left;
+        margin-bottom: 5px;
+    }
+
+    .prj-text {
+        padding-left: 20px;
+        padding-right: 40px;
+        padding-top: 5px;
+    }
+
+    h3.prj {
+        margin-right: 10px;  
+        text-align: left;
+    }
+
+    .prj-col {
+        display: flex; 
+        align-items: center
+    }
+
+
+    
 /* --------------------------------------------------------------------------------------------- */
 /* 
 To Do List:
