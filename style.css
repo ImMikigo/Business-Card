@@ -312,7 +312,7 @@ div#buttons{
 
 /* Last Update */
 .last-update::before{
-    content: "Ultimo aggiornamento: 3 Feb 2025";
+    content: "Ultimo aggiornamento: 4 Feb 2025";
 }
 
 /* Responsive */
@@ -448,10 +448,6 @@ div#buttons{
         padding-right: 20px;
     }
 
-    .prj-description-row {
-        
-    }
-    
     .prj-line-left {
         flex-grow: 1; 
         height: 2px; 
@@ -487,7 +483,7 @@ div#buttons{
     }
 
 
-    
+
 /* --------------------------------------------------------------------------------------------- */
 /* 
 To Do List:
