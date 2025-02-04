@@ -36,67 +36,94 @@ function enableMobileVariants() {
         // none - block
         
         // Back to Home Button 
-        btn_home.style.display        = 'none' ;
-        btn_home_mobile.style.display = 'block'; 
+        if (btn_home) {
+            btn_home.style.display        = 'none' ;
+            btn_home_mobile.style.display = 'block';
+        }
 
         // Job Experiences Section
-        jobExperiences.style.display        = 'none' ;
-        jobExperiences_mobile.style.display = 'block'; 
+        if (jobExperiences) {
+            jobExperiences.style.display        = 'none' ;
+            jobExperiences_mobile.style.display = 'block'; 
+        }
 
         // Education Section
-        education.style.display        = 'none' ;
-        education_mobile.style.display = 'block'; 
+        if (education) {
+            education.style.display        = 'none' ;
+            education_mobile.style.display = 'block'; 
+        }
 
         // Certifications Section
-        certifications.style.display        = 'none' ;
-        certifications_mobile.style.display = 'block'; 
+        if (certifications) {
+            certifications.style.display        = 'none' ;
+            certifications_mobile.style.display = 'block'; 
+        }
 
         // Languages & Skills Sections
-        languages_skills.style.display = 'none' ;
-        languages_mobile.style.display = 'block'; 
-        skills_mobile.style.display    = 'block'; 
+        if (languages_skills) {
+            languages_skills.style.display = 'none' ;
+            languages_mobile.style.display = 'block'; 
+            skills_mobile.style.display    = 'block'; 
+        }
 
         // Driving License Section
-        drivingLicense.style.display        = 'none' ;
-        drivingLicense_mobile.style.display = 'block'; 
+        if (drivingLicense) {   
+            drivingLicense.style.display        = 'none' ;
+            drivingLicense_mobile.style.display = 'block';
+        } 
 
         // Icons Copyright
-        icons_copyright.style.display        = 'none';
-        icons_copyright_mobile.style.display = 'block';
+        if (icons_copyright) {
+            icons_copyright.style.display        = 'none' ;
+            icons_copyright_mobile.style.display = 'block';
+        }
 
     } else {
 
         // block - none
 
         // Back to Home Button 
-        btn_home.style.display        = 'block';
-        btn_home_mobile.style.display = 'none' ; 
+        if (btn_home) {
+            btn_home.style.display        = 'block';
+            btn_home_mobile.style.display = 'none' ; 
+        }
 
         // Job Experiences Section
-        jobExperiences.style.display        = 'block';
-        jobExperiences_mobile.style.display = 'none' ; 
+        if (jobExperiences) {
+            jobExperiences.style.display        = 'block';
+            jobExperiences_mobile.style.display = 'none' ; 
+        }
 
         // Education Section  
-        education.style.display        = 'block';
-        education_mobile.style.display = 'none' ; 
+        if (education) {
+            education.style.display        = 'block';
+            education_mobile.style.display = 'none' ; 
+        }
 
         // Certifications Section
-        certifications.style.display        = 'block';
-        certifications_mobile.style.display = 'none' ; 
+        if (certifications) {
+            certifications.style.display        = 'block';
+            certifications_mobile.style.display = 'none' ; 
+        }
 
         // Languages & Skills Sections
-        languages_skills.style.display = 'block';
-        languages_mobile.style.display = 'none' ; 
-        skills_mobile.style.display    = 'none' ;
+        if (languages_skills) {
+            languages_skills.style.display = 'block';
+            languages_mobile.style.display = 'none' ; 
+            skills_mobile.style.display    = 'none' ;
+        }
 
         // Driving License Section
-        drivingLicense.style.display        = 'block';
-        drivingLicense_mobile.style.display = 'none' ; 
+        if (drivingLicense) {
+            drivingLicense.style.display        = 'block';
+            drivingLicense_mobile.style.display = 'none' ; 
+        }
 
         // Icons Copyright
-        icons_copyright.style.display        = 'block';
-        icons_copyright_mobile.style.display = 'none' ;
-
+        if (icons_copyright) {
+            icons_copyright.style.display        = 'block';
+            icons_copyright_mobile.style.display = 'none' ;
+        }
     }
 }
 
