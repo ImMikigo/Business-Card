@@ -1,13 +1,4 @@
 
-// Update data Ultima Modifica
-function updateData() {
-
-    const lastUpdateDate = document.getElementById('last-update');
-
-    lastUpdateDate.textContent = 'Ultimo aggiornamento: 05 Gen 2024';
-    
-}
-
 // Imposta 'Mobile Variant' quando schermo max 768px 
 function enableMobileVariants() {
 
@@ -35,6 +26,10 @@ function enableMobileVariants() {
     // Driving License Section
     const drivingLicense        = document.getElementById('drivingLicense'       );
     const drivingLicense_mobile = document.getElementById('drivingLicense-mobile');
+
+    // Footer Copyright
+    const icons_copyright        = document.getElementById('icons-copyright'       );
+    const icons_copyright_mobile = document.getElementById('icons-copyright-mobile');
 
     if (window.innerWidth <= 768) {
 
@@ -65,6 +60,10 @@ function enableMobileVariants() {
         drivingLicense.style.display        = 'none' ;
         drivingLicense_mobile.style.display = 'block'; 
 
+        // Icons Copyright
+        icons_copyright.style.display        = 'none';
+        icons_copyright_mobile.style.display = 'block';
+
     } else {
 
         // block - none
@@ -94,13 +93,15 @@ function enableMobileVariants() {
         drivingLicense.style.display        = 'block';
         drivingLicense_mobile.style.display = 'none' ; 
 
+        // Icons Copyright
+        icons_copyright.style.display        = 'block';
+        icons_copyright_mobile.style.display = 'none' ;
+
     }
 }
 
 // Call Functions on Resize
 enableMobileVariants();
-updateData();
 
 // Update al resize della finestra
-window.addEventListener('resize', updateData);
 window.addEventListener('resize', enableMobileVariants);
