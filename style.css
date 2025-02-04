@@ -315,6 +315,11 @@ div#buttons{
     content: "Ultimo aggiornamento: 4 Feb 2025";
 }
 
+/* Copyright */
+.copyright::before{
+    content: "© 2025 Mirko Pedone. Tutti i diritti riservati.";
+}
+
 /* Responsive */
 
 /* Media query per dispositivi con larghezza max di 768px (tablet e smartphone) */
