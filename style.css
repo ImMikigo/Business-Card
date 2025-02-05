@@ -59,7 +59,7 @@ body {
     border-radius: 10px;
 }
 
-/* Home Btn */
+/* Home Btn Mobile */
 #btn-home-mobile{
     width: 130px;
     height: 45px;
@@ -70,6 +70,31 @@ body {
     margin-left: -25px;
     margin-bottom: 30px;
 }
+
+/* Home Btn Mobile Project */
+#btn-home-mobile-projects{
+    width: 130px;
+    height: 45px;
+    position: relative;
+    display: block;
+    border: none;
+    margin-top: -75px;
+    margin-left: 240px;
+    margin-bottom: 30px;
+}
+
+/* Home Btn Mobile Project */
+#btn-projects-mobile{
+    width: 130px;
+    height: 45px;
+    position: relative;
+    display: block;
+    border: none;
+    margin-top: -75px;
+    margin-left: -25px;
+    margin-bottom: 30px;
+}
+
 
 /* About Section */
 #about-div{

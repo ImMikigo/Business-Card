@@ -35,9 +35,14 @@ function enableMobileVariants() {
     // Card 1
     const card_1        = document.getElementById('card-1');
     const card_1_mobile = document.getElementById('card-1-mobile');
-    // Card 2
-    // const card_2_       = document.getElementById('card-2');
-    // const card_2_mobile = document.getElementById('card-2-mobile');
+   
+    // Back to Home Button - Project 
+    const btn_home_projects       = document.getElementById('btn-home-projects');
+    const btn_home_mobile_project = document.getElementById('btn-home-mobile-projects');
+
+    // Back to Projects Button 
+    const btn_projects        = document.getElementById('btn-projects');
+    const btn_projects_mobile = document.getElementById('btn-projects-mobile');
 
     if (window.innerWidth <= 768) {
 
@@ -93,6 +98,18 @@ function enableMobileVariants() {
             card_1_mobile.style.display = 'block';
         }
 
+        // Back to Home Button - Project
+        if (btn_home_projects) {
+            btn_home_projects.style.display       = 'none' ;
+            btn_home_mobile_project.style.display = 'block';
+        }
+
+        // Back to Projects Button
+        if (btn_projects) {
+            btn_projects.style.display        = 'none' ;
+            btn_projects_mobile.style.display = 'block';
+        }
+
     } else {
 
         // block - none
@@ -145,6 +162,18 @@ function enableMobileVariants() {
         if (card_1) {
             card_1.style.display        = 'block';
             card_1_mobile.style.display = 'none' ;
+        }
+
+        // Back to Home Button - Project
+        if (btn_home_projects) {
+            btn_home_projects.style.display        = 'block';
+            btn_home_mobile_project.style.display = 'none' ;
+        }
+
+        // Back to Projects Button
+        if (btn_projects) {
+            btn_projects.style.display        = 'block';
+            btn_projects_mobile.style.display = 'none' ;
         }
 
     }
