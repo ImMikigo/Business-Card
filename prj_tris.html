@@ -63,18 +63,117 @@
             <p>Gioco Android</p>
 
             <!-- Description And Carousel -->
-            <div class="prj-description-and-carousel row">
+            <div id="prj-description-and-carousel">
+                <div class="prj-description-and-carousel row">
 
-                <!-- Description Section -->
-                <div class="col-md-8 prj-info">
+                    <!-- Description Section -->
+                    <div class="col-md-8 prj-info" id="prj-description">
 
+                        <div class="row prj" id="prj-description-row">
+                            <div class="prj-col">
+                                <div class="prj-line-left"></div>
+                                <h3 class="prj" >&nbsp; Descrizione</h3>
+                                <div class="prj-line-right"></div>
+                            </div>
+                            <div class="prj-text">
+                                <p>
+                                    Un app per giocare al solito, classico Tris.
+                                    <br/>
+                                    Sviluppata utilizzando Android Studio, permette di giocare insieme a un amico, in modalità 1v1 locale.
+                                    <br/>
+                                    Con un design minimalista, arriva dritta al punto: giocare a Tris.
+                                    <br/>
+                                    Piccoli dettagli come il cambiare la lingua o colori, sono stati implementati per rendere l'esperienza più personalizzata.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row prj" id="prj-why">
+                            <div class="prj-col">
+                                <div class="prj-line-left"></div>
+                                <h3 class="prj">&nbsp; Perché?</h3>
+                                <div class="prj-line-right"></div>
+                            </div>
+                            <div class="prj-text">
+                                <p>
+                                    L'idea nasce per unire l'utile al dilettevole: consolidare le conoscenze di Android Studio acquisite durante i due anni d'ITS e, al tempo stesso, creare un gioco "perditempo".
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="row prj" class="prj-what-next">
+                            <div class="prj-col">
+                                <div class="prj-line-left"></div>
+                                <h3 class="prj">&nbsp; E poi?</h3>
+                                <div class="prj-line-right"></div>
+                            </div>
+                            <div class="prj-text">
+                                <p>
+                                    Nelle versioni future prevedo d'implementare due nuove modalità di gioco:
+                                        <p class="padding-1em">
+                                            - Giocatore vs CPU:
+                                        </p>
+                                            <p class="padding-2em">
+                                                La classica modalità di gioco solitaria, utile per quando si è da soli.
+                                            </p>
+                                        <p class="padding-1em">
+                                            - Modalità Dinamica:
+                                        </p>
+                                            <p class="padding-2em">
+                                                In questa modalità, ogni giocare ha 3 pedine ("X", "O") e posiziona a turno una pedina finché tutte e 6 le pedine non vengono posizionate.
+                                                <br/>
+                                                A quel punto, invece di posizionare nuove pedine, i giocatori devono spostare le pedine già posizionate.
+                                                <br/>
+                                                Ogni giocatore può spostare una pedina per turno e, come nel classico Tris, vince chi forma una fila di 3 simboli.
+                                            </p>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+                
+                    <!-- Carousel Section -->
+                    <div class="col-md-4 prj-carousel">            
+                        <div id="appCarousel" class="carousel slide" id="carousel" data-bs-ride="carousel" data-bs-interval="4500">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src="img/project/tris/screenshot/screenshot_01.png" class="screenshot" alt="Screenshot 1">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/project/tris/screenshot/screenshot_02.png" class="screenshot" alt="Screenshot 2">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/project/tris/screenshot/screenshot_03.png" class="screenshot" alt="Screenshot 3">
+                                </div>
+                                <div class="carousel-item">
+                                    <img src="img/project/tris/screenshot/screenshot_04.png" class="screenshot" alt="Screenshot 4">
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#appCarousel" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#appCarousel" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <!-- Description And Carousel // Mobile Version -->
+            <div id="prj-description-and-carousel-mobile">
+
+                <!-- Description Section // Mobile Version -->
+                <div class="prj-info-mobile" id="prj-description-mobile">
+                
                     <div class="row prj" id="prj-description-row">
                         <div class="prj-col">
                             <div class="prj-line-left"></div>
                             <h3 class="prj" >&nbsp; Descrizione</h3>
                             <div class="prj-line-right"></div>
                         </div>
-                        <div class="prj-text">
+                        <div class="prj-text-mobile">
                             <p>
                                 Un app per giocare al solito, classico Tris.
                                 <br/>
@@ -93,7 +192,7 @@
                             <h3 class="prj">&nbsp; Perché?</h3>
                             <div class="prj-line-right"></div>
                         </div>
-                        <div class="prj-text">
+                        <div class="prj-text-mobile">
                             <p>
                                 L'idea nasce per unire l'utile al dilettevole: consolidare le conoscenze di Android Studio acquisite durante i due anni d'ITS e, al tempo stesso, creare un gioco "perditempo".
                             </p>
@@ -106,7 +205,7 @@
                             <h3 class="prj">&nbsp; E poi?</h3>
                             <div class="prj-line-right"></div>
                         </div>
-                        <div class="prj-text">
+                        <div class="prj-text-mobile">
                             <p>
                                 Nelle versioni future prevedo d'implementare due nuove modalità di gioco:
                                     <p class="padding-1em">
@@ -129,10 +228,18 @@
                         </div>
                     </div>
 
+                    <div class="row prj" class="prj-images">
+                        <div class="prj-col">
+                            <div class="prj-line-left"></div>
+                            <h3 class="prj">&nbsp; Immagini Dimostrative</h3>
+                            <div class="prj-line-right"></div>
+                        </div>
+                    </div>
+
                 </div>
-            
-                <!-- Carousel Section -->
-                <div class="col-md-4 prj-carousel">            
+
+                <!-- Carousel Section // Mobile Version -->
+                <div class="col-md-4 prj-carousel-mobile">            
                     <div id="appCarousel" class="carousel slide" id="carousel" data-bs-ride="carousel" data-bs-interval="4500">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
@@ -159,7 +266,6 @@
 
             </div>
             
-
             <!-- Horizontal Line -->
             <div class="horizontal-line cv" id="horizontal-line-tris"></div>
 

@@ -33,16 +33,20 @@ function enableMobileVariants() {
 
     // Cards
     // Card 1
-    const card_1        = document.getElementById('card-1');
+    const card_1        = document.getElementById('card-1'       );
     const card_1_mobile = document.getElementById('card-1-mobile');
    
     // Back to Home Button - Project 
-    const btn_home_projects       = document.getElementById('btn-home-projects');
+    const btn_home_projects       = document.getElementById('btn-home-projects'       );
     const btn_home_mobile_project = document.getElementById('btn-home-mobile-projects');
 
     // Back to Projects Button 
-    const btn_projects        = document.getElementById('btn-projects');
+    const btn_projects        = document.getElementById('btn-projects'       );
     const btn_projects_mobile = document.getElementById('btn-projects-mobile');
+
+    // Description and Carousel
+    const prj_description_and_carousel        = document.getElementById('prj-description-and-carousel'       );
+    const prj_description_and_carousel_mobile = document.getElementById('prj-description-and-carousel-mobile');
 
     if (window.innerWidth <= 768) {
 
@@ -110,6 +114,12 @@ function enableMobileVariants() {
             btn_projects_mobile.style.display = 'block';
         }
 
+        // Description and Carousel
+        if (prj_description_and_carousel) {
+            prj_description_and_carousel.style.display        = 'none' ;
+            prj_description_and_carousel_mobile.style.display = 'block';
+        }
+
     } else {
 
         // block - none
@@ -174,6 +184,12 @@ function enableMobileVariants() {
         if (btn_projects) {
             btn_projects.style.display        = 'block';
             btn_projects_mobile.style.display = 'none' ;
+        }
+
+        // Description and Carousel
+        if (prj_description_and_carousel) {
+            prj_description_and_carousel.style.display        = 'block';
+            prj_description_and_carousel_mobile.style.display = 'none' ;
         }
 
     }

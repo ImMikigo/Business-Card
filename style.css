@@ -540,6 +540,13 @@ div#buttons{
         text-align: justify;
     }
 
+    .prj-text-mobile {
+        margin-left: 5px;
+        padding-right: 30px;
+        padding-top: 5px;
+        text-align: justify;
+    }
+
     h3.prj {
         margin-right: 10px;  
         text-align: left;
