@@ -267,6 +267,8 @@ a.card{
 .col-left {
     width: 80%;
     padding-right: 10px;
+    display: flex;
+    align-items: center;     
 }
 .col-right {
     width: 20%;
