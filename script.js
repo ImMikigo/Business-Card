@@ -31,6 +31,14 @@ function enableMobileVariants() {
     const icons_copyright        = document.getElementById('icons-copyright'       );
     const icons_copyright_mobile = document.getElementById('icons-copyright-mobile');
 
+    // Cards
+    // Card 1
+    const card_1        = document.getElementById('card-1');
+    const card_1_mobile = document.getElementById('card-1-mobile');
+    // Card 2
+    // const card_2_       = document.getElementById('card-2');
+    // const card_2_mobile = document.getElementById('card-2-mobile');
+
     if (window.innerWidth <= 768) {
 
         // none - block
@@ -76,6 +84,13 @@ function enableMobileVariants() {
         if (icons_copyright) {
             icons_copyright.style.display        = 'none' ;
             icons_copyright_mobile.style.display = 'block';
+        }
+
+        // Cards
+        // Card 1
+        if (card_1) {
+            card_1.style.display        = 'none' ;
+            card_1_mobile.style.display = 'block';
         }
 
     } else {
@@ -124,6 +139,14 @@ function enableMobileVariants() {
             icons_copyright.style.display        = 'block';
             icons_copyright_mobile.style.display = 'none' ;
         }
+
+        // Cards
+        // Card 1
+        if (card_1) {
+            card_1.style.display        = 'block';
+            card_1_mobile.style.display = 'none' ;
+        }
+
     }
 }
 

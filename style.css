@@ -263,6 +263,41 @@ a.card{
     border-radius: 5px; 
 }
 
+/* Cards // Mobile Version */
+.col-left {
+    width: 80%;
+    padding-right: 10px;
+}
+.col-right {
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+    .card {
+        width: 90%;
+        height: auto;
+    }
+    .card-header, .card-body, .card-footer {
+        padding: 10px;
+    }
+    .card-header {
+        padding-bottom: 0px;
+    }
+    .card-title {
+        font-size: 18px;
+    }
+    .card-body {
+        font-size: 12px;
+    }
+    .card-footer {
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-size: 12px;
+    }
+}
+
 /* Buttons */
 .buttons-row{
     display: flex;
