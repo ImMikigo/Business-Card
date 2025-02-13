@@ -166,7 +166,6 @@ div#about-cv{
 div#contacts{
     background-color: #c4c8cc;
     padding-top: 20px;
-    /* padding-bottom: 10px; */
     text-align: left;
     padding-left: 5%;
     border-radius: 10px;
@@ -392,10 +391,6 @@ div#buttons{
     body {
         font-size: 12px;
     }
-    #about-text{
-        margin-left: 0%;
-        margin-right: 0%;
-    }
     .round-button-circle {
         width: 90px;
         height: 90px;
@@ -421,16 +416,22 @@ div#buttons{
         margin-left: 0%;
         margin-right: 0%;
     }
+    #cards-row-1 {
+        margin: 0;
+    }
+    #card-0-mobile {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }   
+    #card-1-mobile {
+        margin-top: 40px;
+    }
 }
 
 /* Media query per dispositivi con larghezza max di 480px (smartphone) */
 @media (max-width: 480px) {
     body {
         font-size: 12px;
-    }
-    #about-text{
-        margin-left: 0%;
-        margin-right: 0%;
     }
     .round-button-circle {
         width: 90px;
@@ -460,9 +461,8 @@ div#buttons{
         margin-bottom: 40px;
     }   
     #card-1-mobile {
-        margin-top: 20px;
+        margin-top: 40px;
     }
-    
 }
 
 /* Tris Project Page */
