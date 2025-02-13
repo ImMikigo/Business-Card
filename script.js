@@ -32,6 +32,9 @@ function enableMobileVariants() {
     const icons_copyright_mobile = document.getElementById('icons-copyright-mobile');
 
     // Cards
+    // Card 0
+    const card_0        = document.getElementById('card-0'       );
+    const card_0_mobile = document.getElementById('card-0-mobile');
     // Card 1
     const card_1        = document.getElementById('card-1'       );
     const card_1_mobile = document.getElementById('card-1-mobile');
@@ -44,9 +47,13 @@ function enableMobileVariants() {
     const btn_projects        = document.getElementById('btn-projects'       );
     const btn_projects_mobile = document.getElementById('btn-projects-mobile');
 
-    // Description and Carousel
-    const prj_description_and_carousel        = document.getElementById('prj-description-and-carousel'       );
-    const prj_description_and_carousel_mobile = document.getElementById('prj-description-and-carousel-mobile');
+    // Projects Description
+    // Card
+    const prj_card_description        = document.getElementById('prj-card-description'       );
+    const prj_card_description_mobile = document.getElementById('prj-card-description-mobile');
+    // Tris
+    const prj_tris_description_and_carousel        = document.getElementById('prj-tris-description-and-carousel'       );
+    const prj_tris_description_and_carousel_mobile = document.getElementById('prj-tris-description-and-carousel-mobile');
 
     if (window.innerWidth <= 768) {
 
@@ -96,6 +103,11 @@ function enableMobileVariants() {
         }
 
         // Cards
+        // Card 0
+        if (card_0) {
+            card_0.style.display        = 'none' ;
+            card_0_mobile.style.display = 'block';
+        }
         // Card 1
         if (card_1) {
             card_1.style.display        = 'none' ;
@@ -114,10 +126,16 @@ function enableMobileVariants() {
             btn_projects_mobile.style.display = 'block';
         }
 
-        // Description and Carousel
-        if (prj_description_and_carousel) {
-            prj_description_and_carousel.style.display        = 'none' ;
-            prj_description_and_carousel_mobile.style.display = 'block';
+        // Projects Description
+        // Card
+        if (prj_card_description) {
+            prj_card_description.style.display        = 'none' ;
+            prj_card_description_mobile.style.display = 'block';
+        }
+        // Tris
+        if (prj_tris_description_and_carousel) {
+            prj_tris_description_and_carousel.style.display        = 'none' ;
+            prj_tris_description_and_carousel_mobile.style.display = 'block';
         }
 
     } else {
@@ -168,6 +186,11 @@ function enableMobileVariants() {
         }
 
         // Cards
+        // Card 0
+        if (card_0) {
+            card_0.style.display        = 'block';
+            card_0_mobile.style.display = 'none' ;
+        }
         // Card 1
         if (card_1) {
             card_1.style.display        = 'block';
@@ -186,10 +209,16 @@ function enableMobileVariants() {
             btn_projects_mobile.style.display = 'none' ;
         }
 
-        // Description and Carousel
-        if (prj_description_and_carousel) {
-            prj_description_and_carousel.style.display        = 'block';
-            prj_description_and_carousel_mobile.style.display = 'none' ;
+        // Projects Description
+        // Card
+        if (prj_card_description) {
+            prj_card_description.style.display        = 'block';
+            prj_card_description_mobile.style.display = 'none' ;
+        }
+        // Tris
+        if (prj_tris_description_and_carousel) {
+            prj_tris_description_and_carousel.style.display        = 'block';
+            prj_tris_description_and_carousel_mobile.style.display = 'none' ;
         }
 
     }

@@ -259,7 +259,7 @@ a.card{
     margin-top: 40px;
     margin-bottom: 60px;
 }
-#card-2 {
+#card-0 {
     margin-left: -400px; 
 }
 .card-header{
@@ -452,6 +452,17 @@ div#buttons{
         margin-left: 0;
         margin-right: 0;
     }
+    #cards-row-1 {
+        margin: 0;
+    }
+    #card-0-mobile {
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }   
+    #card-1-mobile {
+        margin-top: 20px;
+    }
+    
 }
 
 /* Tris Project Page */
@@ -509,7 +520,7 @@ div#buttons{
     margin-top: 40px;
 }
 
-#prj-description-alt-card {
+#prj-card-description {
     padding-left: 80px;
     padding-right: 80px;
 }
